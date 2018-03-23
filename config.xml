@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.testphonegap.comforterworm" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.testphonegap.comforterworm" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>被蟲賺點數</name>
     <description>
         此為棉被蟲開發用於賺9kw點數的app，目前因為被蟲沒錢，只有Android與Windows App版。有錢了再來開發iOS。
