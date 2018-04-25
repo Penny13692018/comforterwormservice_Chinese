@@ -34,11 +34,11 @@ function detectmob()
  || navigator.userAgent.match(/BlackBerry/i)
  || navigator.userAgent.match(/Windows Phone/i)
  ){
-    setCookie('interactivecaptcha','0','2');
-	setCookie('rc2audio','0','2');
-	alert("目前「我不是機器人驗證」手機版還不能用，煩請靜待更新~");
-	document.getElementById("interactivecaptcha").checked = false;
-	document.getElementById("rc2audio").checked = false;
+    //setCookie('interactivecaptcha','0','2');
+	//setCookie('rc2audio','0','2');
+	alert("目前「我不是機器人驗證」手機版正在測試~");
+	//document.getElementById("interactivecaptcha").checked = false;
+	//document.getElementById("rc2audio").checked = false;
 	
   }
  else {
