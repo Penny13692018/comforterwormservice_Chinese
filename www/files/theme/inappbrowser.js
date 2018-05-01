@@ -38,7 +38,7 @@
 		iabRef.executeScript({code: "skipbutton.setAttribute('id','skipbutton');"});
 		iabRef.executeScript({code: "skipbutton.setAttribute('type','button');"});
 		iabRef.executeScript({code: "skipbutton.setAttribute('title','Skip');"});
-		iabRef.executeScript({code: "skipbutton.setAttribute('value','SKIP');"});
+		iabRef.executeScript({code: "skipbutton.setAttribute('value','跳過');"});
 		iabRef.executeScript({code: "skipbutton.setAttribute('onclick','skipCaptcha()');"});
 		iabRef.executeScript({code: "document.body.appendChild(skipbutton);"});
 		
