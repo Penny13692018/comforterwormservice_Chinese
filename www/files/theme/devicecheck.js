@@ -36,7 +36,7 @@ function detectmob()
  ){
     //setCookie('interactivecaptcha','0','2');
 	//setCookie('rc2audio','0','2');
-	alert("目前「我不是機器人驗證」手機版正在測試~");
+	//alert("目前「我不是機器人驗證」手機版正在測試~");
 	//document.getElementById("interactivecaptcha").checked = false;
 	//document.getElementById("rc2audio").checked = false;
 	
