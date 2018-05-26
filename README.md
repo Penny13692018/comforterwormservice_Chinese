@@ -1,5 +1,12 @@
 # Solve9kwCaptcha 被蟲賺點數app [![bitHound Score][bithound-img]][bithound-url]
 
+Changes in Version 1.4.1
+Can use both English and Chinese! It's bilingual version!
+
+1.4.1版變動
+新增雙語功能!可以於設定之中切換中英文介面!
+
+
 Changes in Version 1.4.0
 Available for solving reCaptcha
 Removed redundant settings such as audio for reCaptcha (not available for mobile), standard reset.

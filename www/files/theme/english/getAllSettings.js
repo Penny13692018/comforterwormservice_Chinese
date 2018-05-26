@@ -1,6 +1,5 @@
   function getAllSettings()
 	{
-			
 		document.getElementById("apikey").value = getCookie('apikey');
 		document.getElementById("zoomdata").value = getCookie('zoomdata');
 		getCheckSettings("flip");
@@ -28,11 +27,6 @@
 	
   function getAllSettingsForSettingPage()
 	{
-		if(getCookie('languagesetting')=='Eng')
-		{
-			cordova.InAppBrowser.open('settings (2).html', '_self', 'location=no');
-		}
-		
 		if(getCookie('widthc')=='')
 			setCookie('widthc','350',2);
 		if(getCookie('heightc')=='')
