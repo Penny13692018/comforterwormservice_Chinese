@@ -1,9 +1,11 @@
 # Solve9kwCaptcha 被蟲賺點數app [![bitHound Score][bithound-img]][bithound-url]
 
-Changes in Version 1.4.1
+Changes in Version 1.4.2
+Debug Admob-Free
 Can use both English and Chinese! It's bilingual version!
 
-1.4.1版變動
+1.4.2版變動
+Android版的廣告功能除錯。
 新增雙語功能!可以於設定之中切換中英文介面!
 
 
