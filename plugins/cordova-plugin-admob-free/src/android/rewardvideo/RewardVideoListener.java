@@ -17,12 +17,6 @@ class RewardVideoListener implements RewardedVideoAdListener {
         this.executor = executor;
     }
 
-	@Override
-	public void onRewardedVideoCompleted()
-	{
-        executor.fireAdEvent("admob.rewardvideo.events.CLOSE");
-        executor.clearAd();		
-	}
 	
     @Override
     public void onRewardedVideoAdFailedToLoad(int errorCode) {
@@ -74,6 +68,11 @@ class RewardVideoListener implements RewardedVideoAdListener {
     public void onRewardedVideoStarted() {
         executor.fireAdEvent("admob.rewardvideo.events.START");
     }
+	
+	@Override
+	public void onRewardedVideoCompleted(){
+        executor.fireAdEvent("admob.rewardvideo.events.COMPLETE");	
+	}	
 
     @Override
     public void onRewardedVideoAdClosed() {
