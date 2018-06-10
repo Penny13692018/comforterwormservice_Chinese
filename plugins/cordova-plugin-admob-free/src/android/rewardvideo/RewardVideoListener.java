@@ -17,6 +17,13 @@ class RewardVideoListener implements RewardedVideoAdListener {
         this.executor = executor;
     }
 
+	@Override
+	public void onRewardedVideoCompleted()
+	{
+        executor.fireAdEvent("admob.rewardvideo.events.CLOSE");
+        executor.clearAd();		
+	}
+	
     @Override
     public void onRewardedVideoAdFailedToLoad(int errorCode) {
         synchronized (executor.rewardedVideoLock) {
